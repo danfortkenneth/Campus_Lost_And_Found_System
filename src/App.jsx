@@ -21,7 +21,7 @@ function App() {
         {}
         <Route path="/admin-panel" element={<AdminSecurity />} />
         
-        {/* Catch-all: Pag mali ang URL, balik sa Login */}
+        {}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
