@@ -18,10 +18,10 @@ function App() {
         <Route path="/item-detail" element={<ItemDetail />} />
         <Route path="/profile" element={<Profile />} />
         
-        {/* Isang route na lang para sa Admin Hub */}
+        {}
         <Route path="/admin-panel" element={<AdminSecurity />} />
         
-        {/* Catch-all: Pag mali ang URL, balik sa Login */}
+        {}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
