@@ -1,0 +1,15 @@
+:root {
+  --claf-navy: #003366;
+  --claf-gold: #c5a059;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Custom utility classes */
+.bg-navy { background-color: var(--claf-navy) !important; }
+.text-navy { color: var(--claf-navy) !important; }
+.text-gold { color: var(--claf-gold) !important; }
